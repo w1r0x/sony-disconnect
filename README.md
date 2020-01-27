@@ -8,7 +8,8 @@ When inactive timeout occurs it disconnects your headphones using bluetooth.
 
 # How to run
 ```console
-$ git clone git@github.com:w1r0x/sony-disconnect.git
+$ git clone https://github.com/w1r0x/sony-disconnect.git
+$ cd sony-disconnect
 $ pip install -r Requirements
 $ python app.py
 ```
@@ -17,7 +18,7 @@ Should run with user priveleges to access pulseaudio server
 
 # bt-device
 
-Need to have `bt-device` app.
+Need to have `bt-device` app for bluetooth disconnect event
 
 ## Ubuntu
 ```console
